@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plantuml Diagrams"
+  short_description: "Author clear PlantUML diagrams"
+  default_prompt: "Use $plantuml-diagrams to draft a clear service architecture diagram."

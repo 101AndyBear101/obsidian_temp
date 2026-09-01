@@ -1,0 +1,17 @@
+views:
+  - type: table
+    name: Daily journals
+    filters:
+      and:
+        - file.inFolder("journals/days")
+        - kind == "note"
+        - type == "fleeting"
+        - status != "archive"
+    order:
+      - file.name
+      - resource
+      - status
+      - tags
+    sort:
+      - property: file.mtime
+        direction: DESC

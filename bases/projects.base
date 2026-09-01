@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Active projects
+    filters:
+      and:
+        - file.inFolder("projects")
+        - kind == "project"
+        - status != "archive"
+    order:
+      - file.name
+      - status
+      - area
+    sort:
+      - property: file.mtime
+        direction: DESC

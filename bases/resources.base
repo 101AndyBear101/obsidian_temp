@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: Active resources
+    filters:
+      and:
+        - file.inFolder("resources")
+        - kind == "resource"
+        - status != "archive"
+    order:
+      - file.name
+      - project
+      - status
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize: {}

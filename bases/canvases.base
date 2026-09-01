@@ -1,0 +1,6 @@
+views:
+  - type: table
+    name: Canvases
+    filters:
+      and:
+        - file.inFolder("canvases")

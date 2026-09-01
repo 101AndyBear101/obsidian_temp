@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vault Skill Authoring"
+  short_description: "Create and improve vault-local skills"
+  default_prompt: "Use $skill-authoring to create or refine a reusable vault skill."

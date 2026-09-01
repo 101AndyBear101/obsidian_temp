@@ -1,0 +1,8 @@
+{
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "userIgnoreFilters": [
+    "agents/",
+    "templates/"
+  ]
+}

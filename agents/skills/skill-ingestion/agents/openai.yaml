@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Ingestion"
+  short_description: "Audit and normalize incoming skills"
+  default_prompt: "Use $skill-ingestion to audit a new vault skill and prepare its conversion plan."

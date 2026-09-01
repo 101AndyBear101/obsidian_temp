@@ -1,0 +1,4 @@
+interface:
+  display_name: "Templater Obsidian"
+  short_description: "Create safe Obsidian Templater templates"
+  default_prompt: "Use $templater-obsidian to create a vault template with dynamic frontmatter."
