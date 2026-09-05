@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/activity
 ---
-
 # Activity Diagram
 
 ## Purpose

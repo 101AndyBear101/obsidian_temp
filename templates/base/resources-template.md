@@ -5,18 +5,17 @@ status: active
 created: <% tp.file.creation_date("YYYY-MM-DD") %>
 tags: []
 ---
+# Title
 
-# resource-name
-
-## Purpose
+## Overview
 
 Describe the reference material, source, or body of knowledge this resource collects.
 
-## Key Information
+## Content
 
 -
 
-## Related Notes
+## Related Items
 
 ```base
 views:
@@ -34,7 +33,3 @@ views:
       - status
       - file.mtime
 ```
-
-## Related
-
--

@@ -8,7 +8,6 @@ tags:
   - mermaid
   - diagram/mindmap
 ---
-
 # Topic Exploration Mind Map
 
 ## Purpose

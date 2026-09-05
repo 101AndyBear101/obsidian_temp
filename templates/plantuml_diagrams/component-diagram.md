@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/component
 ---
-
 # Component Diagram
 
 ## Purpose

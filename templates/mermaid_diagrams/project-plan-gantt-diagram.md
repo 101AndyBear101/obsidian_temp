@@ -8,7 +8,6 @@ tags:
   - mermaid
   - diagram/gantt
 ---
-
 # Project Gantt Plan
 
 ## Purpose

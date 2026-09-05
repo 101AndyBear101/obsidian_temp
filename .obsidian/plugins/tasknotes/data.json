@@ -1,5 +1,5 @@
 {
-  "tasksFolder": "TaskNotes/Tasks",
+  "tasksFolder": "tasks/tasks",
   "moveArchivedTasks": false,
   "archiveFolder": "TaskNotes/Archive",
   "taskTag": "task",
@@ -452,13 +452,13 @@
   "enableMdbaseSpec": false,
   "autoCreateDefaultBasesFiles": true,
   "commandFileMapping": {
-    "open-calendar-view": "TaskNotes/Views/mini-calendar-default.base",
-    "open-kanban-view": "TaskNotes/Views/kanban-default.base",
-    "open-tasks-view": "TaskNotes/Views/tasks-default.base",
-    "open-advanced-calendar-view": "TaskNotes/Views/calendar-default.base",
-    "open-agenda-view": "TaskNotes/Views/agenda-default.base",
-    "pomodoro-stats-base": "TaskNotes/Views/pomodoro-stats.base",
-    "relationships": "TaskNotes/Views/relationships.base"
+    "open-calendar-view": "tasks/views/mini-calendar-default.base",
+    "open-kanban-view": "tasks/views/kanban-default.base",
+    "open-tasks-view": "tasks/views/tasks-default.base",
+    "open-advanced-calendar-view": "tasks/views/calendar-default.base",
+    "open-agenda-view": "tasks/views/agenda-default.base",
+    "pomodoro-stats-base": "tasks/views/pomodoro-stats.base",
+    "relationships": "tasks/views/relationships.base"
   },
   "maintainDueDateOffsetInRecurring": false,
   "resetCheckboxesOnRecurrence": false,

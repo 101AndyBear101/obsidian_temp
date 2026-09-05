@@ -8,7 +8,6 @@ tags:
   - mermaid
   - diagram/sequence
 ---
-
 # Service Interaction Sequence
 
 ## Purpose

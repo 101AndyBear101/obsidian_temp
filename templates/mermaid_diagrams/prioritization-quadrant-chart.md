@@ -8,7 +8,6 @@ tags:
   - mermaid
   - diagram/quadrant
 ---
-
 # Priority Quadrant
 
 ## Purpose

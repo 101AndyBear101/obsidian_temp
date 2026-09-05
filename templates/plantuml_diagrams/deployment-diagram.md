@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/deployment
 ---
-
 # Deployment Diagram
 
 ## Purpose

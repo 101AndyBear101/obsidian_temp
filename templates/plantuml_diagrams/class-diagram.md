@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/class
 ---
-
 # Class Diagram
 
 ## Purpose

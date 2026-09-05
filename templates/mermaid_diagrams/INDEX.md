@@ -5,7 +5,6 @@ created: 2026-08-25
 tags:
   - mermaid
 ---
-
 # Mermaid Diagram Templates
 
 Use these templates with a `mermaid` fenced block. Start with the core relationship and planning diagrams; render advanced chart types in Obsidian before relying on them in wiki notes.

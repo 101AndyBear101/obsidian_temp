@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/sequence
 ---
-
 # Sequence Diagram
 
 ## Purpose

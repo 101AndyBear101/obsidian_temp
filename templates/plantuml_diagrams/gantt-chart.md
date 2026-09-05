@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/gantt
 ---
-
 # Gantt Chart
 
 ## Purpose

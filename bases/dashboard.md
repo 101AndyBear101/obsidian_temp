@@ -5,9 +5,8 @@ views:
     name: Recent journals
     filters:
       and:
-        - file.folder == "journals/days"
         - kind == "note"
-        - type == "fleeting"
+        - type == "journal"
         - status != "archive"
     order:
       - file.name
@@ -26,7 +25,6 @@ views:
     name: Recent notes
     filters:
       and:
-        - file.inFolder("notes")
         - kind == "note"
         - status != "archive"
     order:
@@ -46,7 +44,6 @@ views:
     name: Active resources
     filters:
       and:
-        - file.inFolder("resources")
         - kind == "resource"
         - status != "archive"
     order:
@@ -64,7 +61,6 @@ views:
     name: Active projects
     filters:
       and:
-        - file.inFolder("projects")
         - kind == "project"
         - status != "archive"
     order:
@@ -82,7 +78,6 @@ views:
     name: Active areas
     filters:
       and:
-        - file.inFolder("areas")
         - kind == "area"
         - status != "archive"
     order:

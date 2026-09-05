@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/timing
 ---
-
 # Timing Diagram
 
 ## Purpose

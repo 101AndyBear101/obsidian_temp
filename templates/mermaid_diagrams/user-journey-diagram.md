@@ -8,7 +8,6 @@ tags:
   - mermaid
   - diagram/user-journey
 ---
-
 # User Journey
 
 ## Purpose

@@ -36,7 +36,7 @@ See [[CONVENTIONS#Metadata Schema]] for the canonical rules.
 
 Key rules:
 - Use lowercase kebab-case for `kind`, `status`, and `type` values.
-- Use plain lowercase-kebab-case filenames for `area`, `project`, and `resource` values.
+- Use compact lowercase identifiers for `area`, `project`, and `resource` values; allow letters, numbers, hyphens, and underscores without spaces.
 - Use ISO dates: `YYYY-MM-DD`.
 
 ## Before Creating or Renaming

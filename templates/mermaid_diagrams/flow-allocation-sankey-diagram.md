@@ -8,7 +8,6 @@ tags:
   - mermaid
   - diagram/sankey
 ---
-
 # Flow Allocation Sankey Diagram
 
 ## Purpose

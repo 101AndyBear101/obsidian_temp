@@ -3,9 +3,7 @@ views:
     name: Active notes
     filters:
       and:
-        - file.inFolder("notes")
         - kind == "note"
-        - status != "archive"
     order:
       - file.name
       - resource

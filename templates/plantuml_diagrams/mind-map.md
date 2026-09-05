@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/mind-map
 ---
-
 # Mind Map
 
 ## Purpose

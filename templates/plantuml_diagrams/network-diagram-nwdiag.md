@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/network
 ---
-
 # Network Diagram (nwdiag)
 
 ## Purpose

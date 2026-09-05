@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/asciimath
 ---
-
 # AsciiMath Formula
 
 ## Purpose

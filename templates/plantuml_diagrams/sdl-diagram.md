@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/sdl
 ---
-
 # SDL Diagram
 
 ## Purpose

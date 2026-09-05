@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/use-case
 ---
-
 # Use-Case Diagram
 
 ## Purpose

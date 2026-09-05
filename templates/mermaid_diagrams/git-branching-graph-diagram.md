@@ -8,7 +8,6 @@ tags:
   - mermaid
   - diagram/gitgraph
 ---
-
 # Git Branching History
 
 ## Purpose

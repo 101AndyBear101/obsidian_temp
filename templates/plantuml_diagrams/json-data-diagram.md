@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/json-data
 ---
-
 # JSON Data Diagram
 
 ## Purpose

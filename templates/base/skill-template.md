@@ -5,14 +5,13 @@ status: active
 tags:
   - skills/skill-name
 ---
+# Title
 
-# Skill Name
-
-## Outcome
+## Overview
 
 State the concrete outcome this skill helps achieve.
 
-## When to Use
+## Usage
 
 - Use when:
 - Do not use when:

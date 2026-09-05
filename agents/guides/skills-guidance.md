@@ -6,11 +6,11 @@ Agent Skills capture reusable, vault-specific workflows. Store each skill under 
 
 - Create, update, standardize, or evaluate a skill with [[agents/skills/skill-authoring/SKILL|skill-authoring]].
 - Import, audit, or normalize skills with [[agents/skills/skill-ingestion/SKILL|skill-ingestion]].
-- Create or troubleshoot dynamic templates with [[agents/skills/templater-obsidian/SKILL|templater-obsidian]].
+- Create or troubleshoot dynamic templates with [[agents/skills/obsidian-templater/SKILL|obsidian-templater]].
 
 ## Specialized Skills
 
-- Use [[agents/skills/plantuml-obsidian/SKILL|plantuml-obsidian]] for PlantUML rendering via the joethei PlantUML plugin.
+- Use [[agents/skills/obsidian-plantuml/SKILL|obsidian-plantuml]] for PlantUML rendering via the joethei PlantUML plugin.
 - Use [[agents/skills/plantuml-diagrams/SKILL|plantuml-diagrams]] for PlantUML source.
 - Use [[agents/skills/mermaid-diagrams/SKILL|mermaid-diagrams]] for Mermaid source.
 

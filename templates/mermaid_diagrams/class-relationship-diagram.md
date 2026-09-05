@@ -8,7 +8,6 @@ tags:
   - mermaid
   - diagram/class
 ---
-
 # Class Relationship Diagram
 
 ## Purpose

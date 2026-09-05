@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/latex
 ---
-
 # LaTeX Formula
 
 ## Purpose

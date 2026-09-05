@@ -7,14 +7,13 @@ created: <% tp.file.creation_date("YYYY-MM-DD") %>
 tags:
   - diagram/generic
 ---
+# Title
 
-# diagram-type-diagram
-
-## Purpose
+## Overview
 
 Explain what this diagram shows and who benefits from it.
 
-## Diagram
+## Content
 
 ```mermaid
 flowchart TD
@@ -23,16 +22,6 @@ flowchart TD
 
 The default uses a `mermaid` fenced block. Use `plantuml` instead when its syntax is the better fit. See `templates/mermaid_diagrams/` and `templates/plantuml_diagrams/` for syntax and structure.
 
-## Explanation
+## Details
 
 - **Element**: What it represents.
-
-## Validation
-
-- [ ] The diagram renders without errors in Obsidian.
-- [ ] Labels are descriptive enough to understand without the source file.
-- [ ] No sensitive or private information is included.
-
-## Related
-
--

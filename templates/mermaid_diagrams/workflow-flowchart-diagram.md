@@ -8,7 +8,6 @@ tags:
   - mermaid
   - diagram/flowchart
 ---
-
 # Workflow Flowchart
 
 ## Purpose

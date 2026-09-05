@@ -5,7 +5,6 @@ created: 2026-08-25
 tags:
   - plantuml
 ---
-
 # PlantUML Diagram Templates
 
 This folder contains self-contained PlantUML templates for use in Obsidian notes. Open [[templates/plantuml_diagrams/INDEX|the template index]] to choose a diagram by purpose.
@@ -28,4 +27,4 @@ Most templates use `@startuml` and `@enduml`. Use the diagram-specific envelope 
 
 ## Authoring Guidance
 
-Use concise labels, stable aliases, and a single clear purpose per diagram. Do not include passwords, tokens, private keys, or other sensitive configuration values. For detailed authoring and troubleshooting guidance, use the vault's `plantuml-diagrams` and `plantuml-obsidian` skills.
+Use concise labels, stable aliases, and a single clear purpose per diagram. Do not include passwords, tokens, private keys, or other sensitive configuration values. For detailed authoring and troubleshooting guidance, use the vault's `plantuml-diagrams` and `obsidian-plantuml` skills.

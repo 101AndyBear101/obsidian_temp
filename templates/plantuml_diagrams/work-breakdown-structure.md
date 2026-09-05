@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/wbs
 ---
-
 # Work Breakdown Structure
 
 ## Purpose

@@ -3,10 +3,8 @@ views:
     name: Daily journals
     filters:
       and:
-        - file.inFolder("journals/days")
         - kind == "note"
-        - type == "fleeting"
-        - status != "archive"
+        - type == "journal"
     order:
       - file.name
       - resource

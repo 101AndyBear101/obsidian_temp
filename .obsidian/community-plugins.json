@@ -5,5 +5,6 @@
   "pdf-plus",
   "cmdr",
   "obsidian-style-settings",
-  "obsidian-plantuml"
+  "obsidian-plantuml",
+  "obsidian-linter"
 ]

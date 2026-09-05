@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ec3375afebf0a231",
+        "id": "a1022683a8b6856b",
         "type": "tabs",
         "children": [
           {
-            "id": "1be05cb55a4223ec",
+            "id": "d66feff66b074fd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "agents/guides/naming-guidance.md",
+                "file": "agents/guides/organization-guidance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "naming-guidance"
+              "title": "organization-guidance"
             }
           }
         ]
@@ -94,12 +94,27 @@
         "type": "tabs",
         "children": [
           {
+            "id": "807659793a41c1d7",
+            "type": "leaf",
+            "state": {
+              "type": "tasknotes-pomodoro-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Pomodoro"
+            }
+          }
+        ]
+      },
+      {
+        "id": "343cf5311a54c99b",
+        "type": "tabs",
+        "children": [
+          {
             "id": "98f37bc8aac917bf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TaskNotes/Start Here.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +133,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +175,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,52 +183,75 @@
               "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "audio-recorder:Start/stop recording": false,
+      "graph:Open graph view": false,
+      "workspaces:Manage workspace layouts": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "audio-recorder:Start/stop recording": false,
-      "workspaces:Manage workspace layouts": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "templater-obsidian:Templater": false,
-      "tasknotes:Open mini calendar view": false,
-      "tasknotes:Open calendar view": false,
-      "tasknotes:Open tasks view": false,
-      "tasknotes:Open agenda view": false,
-      "tasknotes:Open Kanban board": false,
-      "tasknotes:Open Pomodoro timer": false,
-      "tasknotes:Open Pomodoro statistics": false,
-      "tasknotes:Create new task": false
+      "switcher:Open quick switcher": true,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "bases:Create new base": true,
+      "templater-obsidian:Templater": true,
+      "tasknotes:Open mini calendar view": true,
+      "tasknotes:Open calendar view": true,
+      "tasknotes:Open tasks view": true,
+      "tasknotes:Open agenda view": true,
+      "tasknotes:Open Kanban board": true,
+      "tasknotes:Open Pomodoro timer": true,
+      "tasknotes:Open Pomodoro statistics": true,
+      "tasknotes:Create new task": true
     }
   },
-  "active": "1be05cb55a4223ec",
+  "active": "d66feff66b074fd6",
   "lastOpenFiles": [
+    "agents/scripts/__pycache__/master.cpython-312.pyc",
+    "agents/scripts/__pycache__/test_master.cpython-312-pytest-8.4.2.pyc.10856",
+    "agents/scripts/ini_master.ini",
+    "agents/scripts/master.py",
+    "agents/scripts/validators/duplicates/log_duplicates.json",
+    "agents/scripts/validators/skills/log_skills.json",
+    "agents/scripts/validators/templates/log_templates.json",
+    "agents/scripts/validators/indexes/log_indexes.json",
+    "agents/scripts/validators/sections/log_sections.json",
+    "agents/scripts/validators/attachments/log_attachments.json",
+    "agents/scripts/validators/link_coverage/log_link_coverage.json",
+    "plans/validator-refactor-plan.md",
+    "journals/daily/2026-09-02.md",
+    "bases/dashboard.md",
+    "README.md",
+    "AGENTS.md",
+    "CONVENTIONS.md",
+    "agents/guides/organization-guidance.md",
+    "agents/guides/naming-guidance.md",
+    "resources/personal.md",
+    "projects/personal.md",
+    "areas/personal.md",
+    "resources/wiki-authoring-reference.md",
+    "plans/base-template-header-generalization.md",
+    "areas/health.md",
+    "notes/homelab-overview.md",
+    "resources/homelab-operations-reference.md",
+    "templates/base/daily-template.md",
+    "notes/wiki-overview.md",
+    "templates/mermaid_diagrams/class-relationship-diagram.md",
+    "templates/base/area-template.md",
+    "templates/base/diagram-template.md",
+    "tasks/Start Here.md",
     "TaskNotes/Start Here.md",
-    "TaskNotes/Views/mini-calendar-default.base",
-    "journals/days/2026-08-27.md",
-    "journals/days/2026-08-28.md",
-    "TaskNotes/Views/calendar-default.base",
-    "Welcome.md",
-    "TaskNotes/Views/relationships.base",
-    "TaskNotes/Views/pomodoro-stats.base",
-    "TaskNotes/Views/agenda-default.base",
-    "TaskNotes/Views/tasks-default.base",
-    "TaskNotes/Views/kanban-default.base",
-    "TaskNotes/Views",
-    "TaskNotes"
+    "tasks/tasks/test.md",
+    "projects/homelab-wiki-launch.md"
   ]
 }

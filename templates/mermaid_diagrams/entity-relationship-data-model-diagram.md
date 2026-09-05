@@ -8,7 +8,6 @@ tags:
   - mermaid
   - diagram/entity-relationship
 ---
-
 # Entity Relationship Data Model
 
 ## Purpose

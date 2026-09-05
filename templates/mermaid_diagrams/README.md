@@ -5,7 +5,6 @@ created: 2026-08-25
 tags:
   - mermaid
 ---
-
 # Mermaid Diagram Templates
 
 This folder contains self-contained Mermaid templates for use in Obsidian notes. Open [[templates/mermaid_diagrams/INDEX|the template index]] to choose a diagram by purpose.

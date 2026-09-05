@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/yaml-data
 ---
-
 # YAML Data Diagram
 
 ## Purpose

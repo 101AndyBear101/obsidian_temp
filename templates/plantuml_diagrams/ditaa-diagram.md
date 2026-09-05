@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/ditaa
 ---
-
 # Ditaa Diagram
 
 ## Purpose

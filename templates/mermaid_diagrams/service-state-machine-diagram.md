@@ -8,7 +8,6 @@ tags:
   - mermaid
   - diagram/state
 ---
-
 # Service State Machine
 
 ## Purpose

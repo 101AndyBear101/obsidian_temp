@@ -8,7 +8,6 @@ tags:
   - mermaid
   - diagram/xy-chart
 ---
-
 # XY Trend Chart
 
 ## Purpose

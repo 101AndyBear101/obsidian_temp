@@ -60,7 +60,7 @@ Before ingesting external content, ask:
 
 3. **What `kind` does it become?**
    - Reusable fact or procedure → `kind: note, type: permanent`
-   - Daily thought → `kind: note, type: fleeting` in `journals/days/`
+   - Daily journal entry → `kind: note, type: journal` in `journals/daily/`
    - External reference → `kind: resource` with `source` URL
    - Connecting existing notes → `kind: note, type: contextual`
 
@@ -120,23 +120,19 @@ The `source` field preserves attribution. The `topic/ingested` tag marks externa
 Every atomic source note should answer exactly one question or document exactly one procedure, configuration, definition, or decision.
 
 ```
-# <Canonical Subject>
+# Title
 
-## Purpose
+## Overview
 
 State what question this note answers or what procedure it owns — one sentence.
 
-## <Settings or Procedure>
+## Content
 
-Canonical values, steps, or definition. Keep embeddable content under stable `##` headings.
-
-## Validation
-
-How to verify the procedure, configuration, or conclusion is correct.
+Canonical values or steps. Keep embeddable content under stable `##` headings.
 
 ## Related
 
-Links to parent resource, project, and related notes.
+Links and relationships to other notes (optional).
 ```
 
 ### Guidelines
@@ -157,11 +153,11 @@ Links to parent resource, project, and related notes.
 
 **Metadata**:
 - `kind: note`, `type: permanent`
-- `resource: [parent-resource-name]` (the note-to-resource relationship; links upward in the PARA hierarchy)
+- `resource` (optional, links upward in the PARA hierarchy)
 - `tags` when useful for filtering (e.g. `homelab/documentation`)
 
 **Linking**:
-- Link to parent resource in both frontmatter (`resource`) and body (wikilink in ## Related).
+- Link to parent resource in both frontmatter (`resource`) and body when it provides context.
 - Wikilinks in body content should point to canonical source notes, not duplicate their content.
 - Use path-qualified links (`[[notes/note-name]]`) only when filenames repeat across folders.
 
@@ -173,29 +169,22 @@ kind: note
 status: active
 type: permanent
 created: YYYY-MM-DD
-resource:
-  - parent-resource-name
 tags:
   - topic/area
 ---
 
-# Canonical Subject
+# Title
 
-## Purpose
+## Overview
 
 One sentence explaining what this note owns.
 
-## Settings or Procedure
+## Content
 
-Canonical values or steps. Use stable `##` headings for embeddable content.
-
-## Validation
-
-How to verify correctness.
+Document the canonical values or steps here. Keep embeddable content under stable `##` headings.
 
 ## Related
 
-- [[resources/parent-resource-name|Parent resource]]
 - [[notes/related-note|Related note]]
 ```
 

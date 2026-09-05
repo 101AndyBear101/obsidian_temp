@@ -8,7 +8,6 @@ tags:
   - mermaid
   - diagram/requirement
 ---
-
 # Requirement Traceability Diagram
 
 ## Purpose

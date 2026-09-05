@@ -5,26 +5,25 @@ status: active
 created: <% tp.file.creation_date("YYYY-MM-DD") %>
 tags: []
 ---
+# Title
 
-# project-name
-
-## Goal
+## Overview
 
 Define the finite outcome and why it matters.
 
-## Current State
+## Status
 
 Summarize progress, constraints, and the current blocker if there is one.
 
-## Next Actions
+## Actions
 
 - [ ]
 
-## Notes and Decisions
+## Notes
 
 -
 
-## Resources
+## Related Items
 
 ```base
 views:
@@ -42,6 +41,6 @@ views:
       - file.mtime
 ```
 
-## Completion Criteria
+## Completion
 
 - [ ]

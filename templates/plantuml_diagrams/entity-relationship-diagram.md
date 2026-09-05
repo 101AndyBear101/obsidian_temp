@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/entity-relationship
 ---
-
 # Entity-Relationship Diagram
 
 ## Purpose

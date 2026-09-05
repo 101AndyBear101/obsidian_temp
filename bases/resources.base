@@ -3,9 +3,7 @@ views:
     name: Active resources
     filters:
       and:
-        - file.inFolder("resources")
         - kind == "resource"
-        - status != "archive"
     order:
       - file.name
       - project

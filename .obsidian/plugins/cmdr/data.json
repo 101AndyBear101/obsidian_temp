@@ -7,12 +7,55 @@
   "leftRibbon": [],
   "rightRibbon": [],
   "titleBar": [],
-  "statusBar": [],
+  "statusBar": [
+    {
+      "id": "tasknotes:open-pomodoro-stats",
+      "icon": "lucide-chart-column",
+      "name": "TaskNotes: Open Pomodoro statistics",
+      "mode": "any"
+    },
+    {
+      "id": "tasknotes:open-advanced-calendar-view",
+      "icon": "lucide-calendar",
+      "name": "TaskNotes: Open calendar view",
+      "mode": "any"
+    },
+    {
+      "id": "tasknotes:open-kanban-view",
+      "icon": "lucide-columns-3",
+      "name": "TaskNotes: Open Kanban board",
+      "mode": "any"
+    },
+    {
+      "id": "tasknotes:create-new-task",
+      "icon": "tasknotes-simple",
+      "name": "TaskNotes: Create new task",
+      "mode": "any"
+    }
+  ],
   "pageHeader": [
     {
       "id": "quickadd:choice:e84e11d6-dbae-47ca-b759-23abc233d2a1",
       "icon": "timer",
       "name": "QuickAdd: add-timestamp",
+      "mode": "any"
+    },
+    {
+      "id": "templater-obsidian:create-new-note-from-template",
+      "icon": "templater-icon",
+      "name": "Templater: Create new note from template",
+      "mode": "any"
+    },
+    {
+      "id": "templater-obsidian:replace-in-file-templater",
+      "icon": "lucide-files",
+      "name": "Templater: Replace templates in the active file",
+      "mode": "any"
+    },
+    {
+      "id": "switcher:open",
+      "icon": "lucide-navigation",
+      "name": "Quick switcher: Open quick switcher",
       "mode": "any"
     }
   ],

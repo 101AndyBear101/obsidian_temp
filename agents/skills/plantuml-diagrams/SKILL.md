@@ -106,7 +106,7 @@ stop
 
 - Do not place passwords, tokens, private keys, or sensitive configuration values in source or labels.
 - `!include`, remote includes, themes, sprites, and standard-library imports can load external content. Use them only when the user explicitly approves the dependency and its source.
-- A renderer may send diagram source to a remote server. For Obsidian rendering, follow `plantuml-obsidian` and prefer local rendering for sensitive architecture.
+- A renderer may send diagram source to a remote server. For Obsidian rendering, follow `obsidian-plantuml` and prefer local rendering for sensitive architecture.
 
 ## Validate Before Handoff
 
@@ -114,7 +114,7 @@ stop
 2. Confirm all aliases and referenced elements are declared or intentionally inferred.
 3. Verify labels, arrow direction, and diagram type reflect the intended relationship.
 4. Render the diagram in the target renderer and fix syntax or legibility errors.
-5. For an Obsidian note, use a `plantuml` fenced block and follow `plantuml-obsidian` for viewer-specific behavior.
+5. For an Obsidian note, use a `plantuml` fenced block and follow `obsidian-plantuml` for viewer-specific behavior.
 
 ## Reference
 

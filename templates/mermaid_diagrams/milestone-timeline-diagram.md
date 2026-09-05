@@ -8,7 +8,6 @@ tags:
   - mermaid
   - diagram/timeline
 ---
-
 # Milestone Timeline
 
 ## Purpose

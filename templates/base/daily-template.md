@@ -1,38 +1,27 @@
 ---
 kind: note
-resource: []
+resource:
+  - personal
 status: active
-type: fleeting
+type: journal
 created: <% tp.file.title %>
 tags:
   - journal/daily
 ---
-
 # <% tp.file.title %>
 
 ## Tasks
-### Priorities
-- [ ]
 
-### Day Planner
-- [ ]
+### Task list
+![[tasks/views/tasks-default.base|tasks-default]]
 
-### Due or Scheduled
+### Schedule
+![[tasks/views/agenda-default.base|agenda-default]]
 
-```tasks
-not done
-due BEFORE <% tp.file.title %>
-path does not include templates
-sort by urgency
-limit 20
-```
+### Calendar
+![[tasks/views/calendar-default.base|calendar-default]]
 
 ## Notes
+
 ### Timestamp
-
-## Reflection
-
-- **Win:**
-- **Lesson:**
-- **Carry forward:**
-- 
+- <% tp.file.cursor() %>

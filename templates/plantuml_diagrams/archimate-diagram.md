@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/archimate
 ---
-
 # ArchiMate Diagram
 
 ## Purpose

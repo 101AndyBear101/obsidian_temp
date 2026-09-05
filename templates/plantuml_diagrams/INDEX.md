@@ -5,7 +5,6 @@ created: 2026-08-25
 tags:
   - plantuml
 ---
-
 # PlantUML Diagram Templates
 
 Use these templates with a `plantuml` fenced block. Choose the smallest diagram that explains the relationship or process you are documenting.

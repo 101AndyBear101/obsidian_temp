@@ -3,6 +3,7 @@
   "showUnsupportedFiles": true,
   "userIgnoreFilters": [
     "agents/",
-    "templates/"
+    "templates/",
+    "files/"
   ]
 }

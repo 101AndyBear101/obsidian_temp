@@ -8,7 +8,7 @@ tags:
 
 # Obsidian Template Vault
 
-A reusable, privacy-safe starting point for a personal knowledge system organized around PARA: projects, areas, resources, and archives. The role-based root folders are stable and are used by the included templates and Base views.
+A reusable, privacy-safe starting point for a personal knowledge system organized around PARA: areas, projects, resources, and notes. The role-based root folders are stable and are used by the included templates and Base views.
 
 ## Start Here
 
@@ -18,7 +18,7 @@ A reusable, privacy-safe starting point for a personal knowledge system organize
 4. Keep canonical knowledge in focused source notes in `notes/`; use contextual overview notes to connect and embed that knowledge for a specific task.
 5. Use the templates in `templates/` when creating notes.
 
-The fictional [[areas/homelab|homelab area]] demonstrates the complete hierarchy. It contains the [[projects/homelab-documentation-baseline|homelab documentation baseline]] and [[projects/homelab-wiki-launch|homelab wiki launch]] projects, which connect to [[resources/homelab-operations-reference|homelab operations]] and [[resources/wiki-authoring-reference|wiki authoring]] resources. Start with [[notes/homelab-overview|the homelab overview]] or [[notes/wiki-overview|the wiki overview]] to see contextual notes embedding canonical atomic-note sections.
+The fictional homelab area demonstrates the complete hierarchy. It contains the homelab documentation baseline and homelab wiki launch projects, which connect to homelab operations and wiki authoring resources. Start with the homelab overview or the wiki overview to see contextual notes embedding canonical atomic-note sections.
 
 See [[CONVENTIONS]] for folder roles, metadata schema, naming patterns, and routing rules.
 
@@ -28,7 +28,7 @@ The core **Templates** plugin should use `templates/` as its template folder. Th
 
 Other installed community plugins, such as PDF++, are optional. Keep a plugin only when it supports your own workflow; templates that depend on a plugin say so in their folder guidance.
 
-Use [[templates/base/notes-template|the notes template]] for atomic source notes. For a contextual wiki note, set `type: contextual`, explain its audience or task, and embed only stable headings from the canonical source notes. The [[notes/homelab-overview|homelab overview]] and [[notes/wiki-overview|wiki overview]] demonstrate this pattern.
+Use [[templates/base/notes-template|the notes template]] for atomic source notes. For a contextual wiki note, set `type: contextual`, explain its audience or task, and embed only stable headings from the canonical source notes.
 
 > [!tip]
 > The example notes are fictional and safe to replace or remove after you understand the structure.

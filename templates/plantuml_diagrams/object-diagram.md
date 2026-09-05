@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/object
 ---
-
 # Object Diagram
 
 ## Purpose

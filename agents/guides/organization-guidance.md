@@ -20,7 +20,7 @@ vault/
 │   └── years/      optional annual indexes and reviews
 ├── areas/          ongoing responsibilities without an end date
 ├── projects/       finite efforts with a defined outcome
-├── resources/      reference material organized for later use
+├── resources/      reusable collections of related reference notes
 ├── notes/          atomic source notes and contextual wiki notes
 ├── canvases/       spatial maps and visual working surfaces
 ├── files/          attachments and supporting non-note files
@@ -39,7 +39,7 @@ Use the [[CONVENTIONS#Routing Content|routing table in CONVENTIONS]] to find the
 
 ## PARA Relationships
 
-The vault's primary logical hierarchy is:
+The vault's optional logical hierarchy is:
 
 ```text
 area
@@ -50,12 +50,12 @@ area
 
 Represent this hierarchy with metadata rather than nested folders:
 
-- Each project identifies its parent area via the scalar `area` property using a plain lowercase kebab-case filename.
-- Each resource identifies one or more parent projects via the `project` list property using plain lowercase kebab-case filenames.
-- Each note identifies one or more parent resources via the `resource` list property using plain lowercase kebab-case filenames; this is the note-to-resource relationship property.
+- A project may identify a related area through the scalar `area` property using a compact lowercase identifier.
+- A resource may identify one or more related projects through the `project` list property using compact lowercase identifiers.
+- A note may identify one or more related resources through the `resource` list property using compact lowercase identifiers.
 - A note may also identify related projects or an area as optional supplementary metadata when that direct relationship improves filtering or discovery.
 
-The list properties allow a resource or note to be reused in more than one context without duplication. Projects do not own private copies of resources or notes; all content remains canonical in its role-based root folder and connects through metadata plus ordinary wikilinks.
+Relationship properties are optional; use them when they provide useful context. The list properties allow a resource or note to be reused in more than one context without duplication. Projects do not own private copies of resources or notes; all content remains canonical in its role-based root folder and connects through metadata plus ordinary wikilinks.
 
 ## Standard Properties
 
@@ -65,10 +65,10 @@ See [[CONVENTIONS#Metadata Schema]] for the complete schema including core prope
 
 ## Relationships and Lifecycle
 
-- Store `area`, `project`, and `resource` values as plain lowercase-kebab-case filenames (e.g. `homelab`). This keeps Base filters reliable and metadata easy to query at a glance.
+- Store `area`, `project`, and `resource` values as compact lowercase identifiers (e.g. `home_ops`). Allow letters, numbers, hyphens, and underscores without spaces; values do not need to resolve to filenames.
 - Use ordinary wikilinks in note content for navigation and context.
 - `archive` is the only status excluded from active dashboard and Base views. Use `complete` for finished work that should remain visible and `paused` for work intentionally deferred.
-- Daily notes live in `journals/days/`, use `kind: note` and `type: fleeting`, and are surfaced by the journals dashboard and Base view.
+- Daily notes live in `journals/daily/`, use `kind: note` and `type: journal`, and are surfaced by the journals dashboard and Base view.
 
 The normal lifecycle is `active` → `paused` or `complete` → `archive`. A note may return to `active` when its work resumes. Changing status does not require moving the file.
 

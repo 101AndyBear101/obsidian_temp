@@ -8,7 +8,6 @@ tags:
   - mermaid
   - diagram/pie
 ---
-
 # Resource Distribution Pie Chart
 
 ## Purpose

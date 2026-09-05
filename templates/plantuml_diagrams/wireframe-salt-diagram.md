@@ -8,7 +8,6 @@ tags:
   - plantuml
   - diagram/wireframe
 ---
-
 # Wireframe Diagram (Salt)
 
 ## Purpose
